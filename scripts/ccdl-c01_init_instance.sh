@@ -132,7 +132,7 @@ function reconfig_ssh () {
 ###
 
 function install_pkgs_for_venv () {
-  apt-get install -y python-pip python-dev python3-dev python-virtualenv
+  apt-get install -y python-pip python-dev python3-dev python-virtualenv pkg-config
 
   # for scipy
   apt-get install -y gfortran
